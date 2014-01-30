@@ -28,7 +28,18 @@
  * dd if=/dev/urandom of=file_1M.bin bs=1M count=1
  *
  */
-
+/****
+ * This can be used to caculate the total time required to download some files and can be used with another algorithm
+ * to calculate how long it will take for the user to download a website and cache it. If the download is too slow, 
+ * small sites can be retrieved to the computer one by one, ensuring that the user does not suffer from slow internet 
+ * speed.
+ * 
+ * It can also be used to calculate the amount of time taken for the server to send data to another server.
+ * 
+ * 
+ * 
+ * 
+ * ****/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
